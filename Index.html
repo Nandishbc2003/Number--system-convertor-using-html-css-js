@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number System Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav><!-- Your navbar design here --></nav>
+  </header>
+  <main>
+    <h1>Number System Converter</h1>
+    <label for="from">Convert from:</label>
+    <select id="from">
+      <option value="binary">Binary</option>
+      <option value="decimal">Decimal</option>
+      <option value="octal">Octal</option>
+      <option value="hexadecimal">Hexadecimal</option>
+    </select>
+
+    <label for="to">Convert to:</label>
+    <select id="to">
+      <option value="binary">Binary</option>
+      <option value="decimal">Decimal</option>
+      <option value="octal">Octal</option>
+      <option value="hexadecimal">Hexadecimal</option>
+    </select>
+
+    <input type="text" id="inputValue" placeholder="Enter the number">
+    <button id="convertBtn">Convert</button>
+
+    <div id="result"></div>
+    <div id="steps"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
